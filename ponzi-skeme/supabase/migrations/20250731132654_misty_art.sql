@@ -45,6 +45,7 @@
       - `processed_at` (timestamp)
       - `created_at` (timestamp)
 
+
     - `user_packages` - User package purchases
       - `id` (uuid, primary key)
       - `user_id` (uuid, foreign key)
