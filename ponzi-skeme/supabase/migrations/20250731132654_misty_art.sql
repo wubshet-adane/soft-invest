@@ -1,3 +1,4 @@
+
 /*
   # Investment Platform Database Schema
 
