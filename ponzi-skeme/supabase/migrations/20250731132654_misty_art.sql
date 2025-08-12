@@ -147,7 +147,7 @@ CREATE TABLE IF NOT EXISTS withdrawals (
   processed_at timestamptz,
   created_at timestamptz DEFAULT now()
 );
-
+ 
 -- User packages table
 CREATE TABLE IF NOT EXISTS user_packages (
   id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
