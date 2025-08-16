@@ -159,7 +159,6 @@ CREATE TABLE IF NOT EXISTS user_packages (
   total_earned decimal(10,2) DEFAULT 0.00,
   is_active boolean DEFAULT true
 );
-
 -- Tasks table
 CREATE TABLE IF NOT EXISTS tasks (
   id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
