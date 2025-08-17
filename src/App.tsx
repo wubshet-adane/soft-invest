@@ -1,17 +1,17 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import { AuthProvider, useAuth } from './contexts/AuthContext';
+import { AuthProvider, useAuth } from './contexts/AuthContext.tsx';
 
 // Auth Components
-import Login from './components/Login';
-import Register from './components/Register';
+import Login from './components/Login.tsx';
+import Register from './components/Register.tsx';
 
 // Layout
-import Layout from './components/Layout';
+import Layout from './components/Layout.tsx';
 
 // Customer Components
-import Dashboard from './components/Dashboard';
-import Packages from './components/Packages';
+import Dashboard from './components/Dashboard.tsx';
+import Packages from './components/Packages.tsx';
 import Tasks from './components/Tasks';
 import Wallet from './components/Wallet';
 import Referrals from './components/Referrals';
