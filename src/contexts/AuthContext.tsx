@@ -125,7 +125,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     setUser(null);
     localStorage.removeItem('user');
   };
-
+ 
   const refreshUser = async () => {
     if (!user) return;
     
